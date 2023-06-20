@@ -45,7 +45,7 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5
+  color: #4d5ae5;
 }
 
 .logo-studio {
@@ -53,7 +53,7 @@ p {
 }
 
 .logo-studio-dark {
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
 
 .menu-link {
@@ -100,12 +100,33 @@ p {
 }
 
 .heroimage {
- background-color: #2E2F42;
+  background-color: #2e2f42;
 }
 
 /* ==========BUTTON MENU========== */
 .button-menu {
-  list-style: none
+  list-style: none;
+}
+
+.modal-button-image {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-button-image:hover,
+.modal-button-image:focus {
+  background-color: #404BBF;
 }
 
 .modal-button {
@@ -124,7 +145,34 @@ p {
 }
 
 /* ==========/BUTTON MENU========== */
+
+/* ==========Hero section========== */
+.advantage-list {
+
+}
+
+.advantage-item {
+
+}
 /* ==========/Hero section========== */
+
+/* ==========Workers========== */
+
+.workers {
+
+}
+
+.workers-list {
+
+}
+
+.workers-item {
+
+}
+
+.workers-pic
+
+/* ==========/Workers========== */
 
 /* ==========Portfolio Images========== */
 
@@ -150,7 +198,7 @@ p {
 
 .text-center {
   text-align: center;
+  text-transform: capitalize
 }
 
 /* ==========/FOOTER========== */
-
