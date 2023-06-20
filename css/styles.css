@@ -1,5 +1,5 @@
 :root {
-  --primary-font: "Roboto", sans-serif;;
+  --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 }
 
@@ -145,22 +145,32 @@ p {
 
 /* ==========Hero section========== */
 .advantage-list {
-
 }
 
 .advantage-item {
+}
+
+.advantage-item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
+}
+
+.advantage-item-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* ==========/Hero section========== */
 
 /* ==========Workers========== */
 
 .workers {
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 
 .workers-list {
