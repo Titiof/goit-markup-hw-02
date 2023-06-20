@@ -148,6 +148,7 @@ p {
 }
 
 .advantage-item {
+  background-color: #FFFFFF
 }
 
 .advantage-item-title {
@@ -170,15 +171,17 @@ p {
 }
 
 .workers-list {
+  background-color: #f4f4fd;
 }
 
 .workers-item {
   text-align: center;
   text-transform: capitalize;
-  background-color: #f4f4fd;
 }
 
-.workers-pic
+.workers-pic {
+
+}
 
 /* ==========/Workers========== */
 
@@ -205,6 +208,7 @@ p {
 }
 
 .gallery-item {
+  text-decoration: none
 }
 
 .gallery-pic {
