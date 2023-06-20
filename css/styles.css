@@ -1,0 +1,143 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ==========HEADER========== */
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+.contact {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #404bbf;
+}
+
+/* ==========/HEADER========== */
+
+/* ==========Hero section========== */
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+}
+
+/* ==========BUTTON MENU========== */
+.button-menu {
+}
+.modal-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
+/* ==========/BUTTON MENU========== */
+/* ==========/Hero section========== */
+
+/* ==========Portfolio Images========== */
+
+.gallery {
+}
+
+.gallery-item {
+}
+
+.gallery-pic {
+  /* position: absolute; */
+  width: 360px;
+  height: 300px;
+  left: 0;
+  top: 0;
+}
+
+/* ==========/Portfolio Images========== */
+
+.background-dark-text {
+  color: #f4f4fd;
+}
+
+.text-center {
+  text-align: center;
+}
