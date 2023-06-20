@@ -148,7 +148,7 @@ p {
 }
 
 .advantage-item {
-  background-color: #FFFFFF
+  background-color: #ffffff;
 }
 
 .advantage-item-title {
@@ -180,7 +180,6 @@ p {
 }
 
 .workers-pic {
-
 }
 
 /* ==========/Workers========== */
@@ -204,11 +203,11 @@ p {
 /* ==========Portfolio Images========== */
 
 .gallery {
-  text-decoration: none;
+  list-style: none;
 }
 
 .gallery-item {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .gallery-pic {
