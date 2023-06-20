@@ -1,5 +1,10 @@
+:root {
+  --primary-font: "Roboto", sans-serif;;
+  --secondary-font: "Raleway", sans-serif;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--primary-font);
   color: #434455;
   background-color: #ffffff;
 }
@@ -32,7 +37,7 @@ p {
 
 /* ==========HEADER========== */
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -102,30 +107,30 @@ p {
 }
 
 .modal-button-image {
+  font-family: var(--primary-font);
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.modal-button-image:hover,
-.modal-button-image:focus {
-  background-color: #404BBF;
-}
-
-.modal-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+
+.modal-button-image:hover,
+.modal-button-image:focus {
+  background-color: #404bbf;
+}
+
+.modal-button {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   background-color: #f4f4fd;
   color: #4d5ae5;
 }
@@ -140,28 +145,24 @@ p {
 
 /* ==========Hero section========== */
 .advantage-list {
-
 }
 
 .advantage-item {
-
 }
 /* ==========/Hero section========== */
 
 /* ==========Workers========== */
 
 .workers {
-
 }
 
 .workers-list {
-
 }
 
 .workers-item {
   text-align: center;
   text-transform: capitalize;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
 .workers-pic
@@ -171,19 +172,15 @@ p {
 /* ==========Production========== */
 
 .production {
-
 }
 
 .production-list {
-
 }
 
 .production-item {
-
 }
 
 .production-pic {
-
 }
 
 /* ==========/Production========== */
@@ -191,7 +188,7 @@ p {
 /* ==========Portfolio Images========== */
 
 .gallery {
-  text-decoration: none
+  text-decoration: none;
 }
 
 .gallery-item {
@@ -213,7 +210,7 @@ p {
 
 .text-center {
   text-align: center;
-  text-transform: capitalize
+  text-transform: capitalize;
 }
 
 /* ==========/FOOTER========== */
